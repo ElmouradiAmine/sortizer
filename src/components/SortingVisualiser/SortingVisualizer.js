@@ -12,6 +12,7 @@ const SortingVisualizer = () => {
 
     return (
             <Flex  height="100%" transform="scale(1,-1)">
+                <Bar color="white" height={500} width="1px"></Bar>
                 {animation.length !== 0 && renderArray(animation[currentFrame])}
             </Flex>
     )

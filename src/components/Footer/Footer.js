@@ -6,7 +6,9 @@ const Footer = () => {
     return (
         <Flex justifyContent="center" alignItems="center" as="footer">
             <Text marginRight="2rem">
-                Made with &#10084; by Amine Elmouradi
+                Made with <span style={{
+                    marginRight:"4px"
+                }}>&#10084;</span> by Amine Elmouradi
             </Text>
             <Link href="">
                 <Image src={githubLogo} width="32px" cursor="pointer" marginRight="0.5rem" _hover={{
