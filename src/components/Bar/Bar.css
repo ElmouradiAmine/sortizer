@@ -1,0 +1,7 @@
+.bar {
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    display: inline-block;
+    position: relative;
+}
