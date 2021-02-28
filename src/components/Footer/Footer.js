@@ -10,7 +10,7 @@ const Footer = () => {
                     marginRight:"4px"
                 }}>&#10084;</span> by Amine Elmouradi
             </Text>
-            <Link href="https://github.com/ElmouradiAmine/sortizer">
+            <Link href="https://github.com/ElmouradiAmine/sortizer" target="_blank">
                 <Image src={githubLogo} width="32px" cursor="pointer" marginRight="0.5rem" _hover={{
                     transform: "scale(1.2)",
                     transition: "all 0.2s",
