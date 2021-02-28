@@ -46,7 +46,6 @@ function App() {
         </GridItem>
 
         <GridItem gridColumn="full-start/full-end"
-          maxWidth="1140px"
           width="100%"
           alignSelf="center"
           justifySelf="center">
